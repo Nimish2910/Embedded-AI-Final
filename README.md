@@ -20,7 +20,7 @@ The goal of the project is to experimentally validate **edge-AI memory-aware ada
 
 ## System Architecture
 
-
+![Architecture Diagram](images/architecture.png)
 ---
 
 ## Hardware Setup
@@ -142,7 +142,7 @@ This dataset has die temperature of MCU's chip
  energydata_complete.csv  
 
  
-(Used only as reference, not primary training data)
+
 
 ---
 
@@ -209,12 +209,9 @@ Logic:
 | MEM_FREE < threshold | INT8 |
 | MEM_FREE >= threshold | FP16 |
 
-STM32 sends memory pressure via:
-
-
+![Adapted to INT8](images/adapted_to_int8.jpg)
 
 MEM_FREE: 1024
-
 
 Fake memory pressure generated using:
 
@@ -235,6 +232,8 @@ Latency measured using `time.perf_counter()`.
 
 These are real measured numbers, not simulated.
 
+![Adaptive Inference With Latency](images/adaptive_inference_withlatency.jpg)
+
 ---
 
 ## Memory Benchmarking
@@ -242,6 +241,7 @@ These are real measured numbers, not simulated.
 ONNX Runtime memory captured using:
 model_memorymeasure.py
 
+![Benchmark Latency](images/benchmarklatency.jpg)
 
 ### Observed
 
