@@ -256,16 +256,15 @@ model_memorymeasure.py
 
 This project uses:
 
-- Real sensor data ✅  
-- Real hardware timing ✅  
-- Real UART link ✅  
-- Real STM32 ADC ✅  
-- Real ML inference ✅  
-- Real memory stress tests ✅  
+- Real sensor data  
+- Real hardware timing  
+- Real UART link   
+- Real STM32 ADC   
+- Real ML inference  
+- Real memory stress tests  
 
 No simulations were used.
 
----
 
 ## How to Run
 
