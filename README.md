@@ -1,4 +1,5 @@
-# Embedded-AI-Final
+# Embedded-AI-Final - Secure memory cooperative interference between stm32 and Rpi 4B
+## Team members - Nimish and Nimisha
 ## Project Overview
 
 This project implements a **memory-aware embedded AI pipeline** using:
@@ -267,14 +268,14 @@ No simulations were used.
 
 ## How to Run
 
-Check out oure demo video for more reference: https://drive.google.com/file/d/1Xug_YPSUZh4iWq73BJWYfQOhd4KALP3s/view?usp=share_link 
+Check out our demo video for more reference: https://drive.google.com/file/d/1Xug_YPSUZh4iWq73BJWYfQOhd4KALP3s/view?usp=share_link 
 
 ### STM32
 
 1. Flash firmware  
 2. Power board  
 3. Leave running  
-Note: STM's CubeMX was used here. You can just add the stm files mentioned in stm firmware section in your CubeMX projects. Make sure to enable UART and ADC in the .ioc file. You can also use the STM32_Tempsensor_Internal.zip
+Note: STM's CubeMX was used here. You can just add the stm files mentioned in stm firmware section in your CubeMX projects. Make sure to enable UART and ADC in the .ioc file. You can also use the STM32_Tempsensor_Internal.zip provided in the repo
 
 ### Raspberry Pi
 
