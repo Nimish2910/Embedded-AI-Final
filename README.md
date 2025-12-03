@@ -277,7 +277,7 @@ Note: STM's CubeMX was used here. You can just add the stm files mentioned in st
 ### Raspberry Pi
 
 ```bash
-source stm32_pi_env/bin/activate
+source ~/stm32_pi_env/bin/activate
 python3 adaptive_live_predict.py
 
 
