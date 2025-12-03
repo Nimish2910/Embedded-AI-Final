@@ -272,7 +272,7 @@ No simulations were used.
 1. Flash firmware  
 2. Power board  
 3. Leave running  
-Note: STM's CubeMX was used here. You can just add the stm files mentioned in stm firmware section in your CubeMX projects. Make sure to enable UART and ADC in the .ioc file
+Note: STM's CubeMX was used here. You can just add the stm files mentioned in stm firmware section in your CubeMX projects. Make sure to enable UART and ADC in the .ioc file. You can also use the STM32_Tempsensor_Internal.zip
 
 ### Raspberry Pi
 
