@@ -267,6 +267,8 @@ No simulations were used.
 
 ## How to Run
 
+Check out oure demo video for more reference: https://drive.google.com/file/d/1Xug_YPSUZh4iWq73BJWYfQOhd4KALP3s/view?usp=share_link 
+
 ### STM32
 
 1. Flash firmware  
