@@ -116,7 +116,6 @@ Raspberry Pi port used:
 | `benchmark_log.txt`           | Benchmark results |
 
 ---
-
 ## Dataset Generation
 
 ### Real Sensor Data
@@ -273,6 +272,7 @@ No simulations were used.
 1. Flash firmware  
 2. Power board  
 3. Leave running  
+Note: STM's CubeMX was used here. You can just add the stm files mentioned in stm firmware section in your CubeMX projects. Make sure to enable UART and ADC in the .ioc file
 
 ### Raspberry Pi
 
